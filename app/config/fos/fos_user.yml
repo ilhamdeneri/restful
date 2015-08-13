@@ -1,0 +1,17 @@
+#
+# more information can be found here http://sonata-project.org/bundles/user
+#
+fos_user:
+    db_driver:      orm # can be orm or odm
+    firewall_name:  main
+    user_class:     Api\Bundle\UserBundle\Entity\User
+    group:
+        group_class: Api\Bundle\UserBundle\Entity\Group
+
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                mappings:
+                    FOSUserBundle: ~
+                    ApiUserBundle: ~

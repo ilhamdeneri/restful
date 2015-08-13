@@ -1,0 +1,8 @@
+parameters:
+    api.user.service.user.class: Api\Bundle\UserBundle\Service\UserService
+
+services:
+    api.user.service.user:
+        class: %api.user.service.user.class%
+        arguments: ['@doctrine.orm.entity_manager', 'ApiUserBundle:User']
+

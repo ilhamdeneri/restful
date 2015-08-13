@@ -8,6 +8,7 @@ app/console doctrine:schema:update --force
 
 # Remove Cache
 rm -rf app/cache/prod/*
+rm -rf app/cache/dev/*
 rm -rf app/logs/*
 
 # Clear Doctrine Cache

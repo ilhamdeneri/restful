@@ -2,6 +2,12 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+    - { resource: nelmio_api.yml }
+    #FOS
+    - { resource: fos/fos_rest.yml }
+    - { resource: fos/fos_user.yml }
+    - { resource: fos/fos_oauth.yml }
+    - { resource: jms_serializer.yml }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -59,6 +65,10 @@ doctrine:
         user:     "%database_user%"
         password: "%database_password%"
         charset:  UTF8
+#        mapping_types:
+#            enum: string
+#        types:
+#            json: Sonata\Doctrine\Types\JsonType
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml
         #     e.g. database_path: "%kernel.root_dir%/data/data.db3"

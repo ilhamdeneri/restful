@@ -17,7 +17,14 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+
+        "friendsofsymfony/user-bundle": "2.0.x-dev",
+        "friendsofsymfony/rest-bundle": "1.8.x-dev",
+        "friendsofsymfony/oauth-server-bundle": "1.4.x-dev",
+        "jms/serializer": "1.0.0",
+        "jms/serializer-bundle": "1.0.0",
+        "nelmio/api-doc-bundle" : "2.9.x-dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
