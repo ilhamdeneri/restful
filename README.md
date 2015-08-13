@@ -48,3 +48,8 @@ Response
 http://localhost:8000/users?access_token=ODRiMWEyODhiY2UxMmY2NTMyN2E3YjZiNWY1Njc2NjNkZTM2ZThhYjk2M2EyMTIzNDYxMDg1ZjE4MDQ1MmRiMQ
 ```
 
+* Api Doc
+```
+http://localhost:8000/api/doc
+```
+
